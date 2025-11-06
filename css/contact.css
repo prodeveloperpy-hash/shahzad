@@ -1,0 +1,83 @@
+/* Keep your existing section background and typography untouched */
+#contact {
+  text-align: center;
+  padding: 5rem 1rem;
+}
+
+.contact-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.contact-subtitle {
+  font-size: 1.05rem;
+  color: var(--muted-text, #666);
+  margin-bottom: 3rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clean-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+}
+
+.social-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.3s ease;
+}
+
+.icon-box {
+  width: 75px;
+  height: 75px;
+  background: #fff;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.icon-box img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.social-icon span {
+  margin-top: 0.8rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+/* Hover animations (subtle and classy) */
+.social-icon:hover .icon-box {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.social-icon:hover span {
+  color: var(--accent-color, #0077b5);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .icon-box {
+    width: 65px;
+    height: 65px;
+  }
+  .icon-box img {
+    width: 40px;
+    height: 40px;
+  }
+}

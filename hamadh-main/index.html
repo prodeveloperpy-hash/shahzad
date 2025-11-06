@@ -1,0 +1,381 @@
+<!doctype html>
+<html lang="en">
+<head> 
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+  <meta name="theme-color" content="#0a0f17" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <title>Hami</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/slider.css">
+  <link rel="stylesheet" href="css/mobile-nav.css">
+  <link rel="stylesheet" href="css/skills.css">
+  <link rel="stylesheet" href="css/about.css">
+  <link rel="stylesheet" href="css/button-fix.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/resume.css">
+  <link rel="stylesheet" href="css/vision.css">
+  <link rel="stylesheet" href="css/projects.css">
+  <meta name="description" content="Professional portfolio of a Full-Stack Website Developer. Showcasing modern websites, web apps, APIs, and performance-focused development.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#">Hami<span class="accent">.</span></a>
+      <nav class="nav" id="nav">
+        <a href="#hero">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#vision">Vision</a>
+        <a href="#contact">Contact</a>
+        <a href="#resume" class="">Resume</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy animate" data-delay="0">
+          <h1 class="headline">Hello, I'm Hami.</h1>
+          <p class="subhead">Full‑Stack Website Developer</p>
+          <p class="lead">I build fast, accessible websites and web apps end‑to‑end — from responsive UIs to robust APIs.</p>
+          <p class="subhead small roles-wrap">I'm a <span id="roles" data-roles="Full-Stack Web Developer,Frontend Developer,Backend Developer,Web Performance Engineer"></span></p>
+          <div class="hero-ctas">
+            <a href="#projects" class="btn primary">Explore My Work</a>
+            <a href="#contact" class="btn ghost">Contact Me</a>
+          </div>
+        </div>
+  <div class="hero-media animate" data-delay="120">
+          <!-- Profile image -->
+          <img src="assets/images/hami.png" alt="Hami's profile photo" class="profile-image">
+        </div>
+      </div>
+      <div class="hero-wave" aria-hidden="true"></div>
+      <div class="hero-blobs" aria-hidden="true">
+        <span class="blob b1"></span>
+        <span class="blob b2"></span>
+        <span class="blob b3"></span>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container section-inner about-container animate">
+        <div class="about-grid">
+          <div class="about-image">
+            <img src="assets/images/hami.png" alt="Hami portrait" class="about-avatar" loading="lazy" decoding="async">
+          </div>
+          <div class="about-copy">
+            <h2>About Me</h2>
+            <p>I'm a product-focused full‑stack web developer. I create performant, accessible web applications with clean, maintainable code — from responsive interfaces to secure, scalable backends. I care about developer experience, reliability, and measurable impact.</p>
+            <ul class="skill-list">
+              <li><span class="skill-highlight">Full Stack Web Development</span> • 3+ years</li>
+              <li><span class="skill-highlight">Projects</span> • 10+ projects</li>
+              <li><span class="skill-highlight">Backend & APIs</span> • Node.js, Python, REST, FastAPI</li>
+              <li><span class="skill-highlight">Databases</span> • PostgreSQL, MongoDB, Redis, MySQL</li>
+              <li><span class="skill-highlight">Performance & SEO</span> • Core Web Vitals, Lighthouse</li>
+            </ul>
+            <div class="about-actions">
+              <a href="#services" class="btn primary">Explore Services</a>
+              <!-- <a href="assets/resume.pdf" download class="btn ghost">Download CV</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section services">
+      <div class="container section-inner animate">
+        <h2>Services</h2>
+          <p class="muted">What I can help you build</p>
+        <div class="services-grid">
+          <!-- Each service card -->
+          <article class="service-card">
+            <div class="icon">🌐</div>
+            <h3>Full Stack Website Development</h3>
+            <p>End‑to‑end websites and web apps with responsive UI, robust APIs, and production‑ready deployments.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">⚡</div>
+            <h3>Performance Optimization</h3>
+            <p>Improve Core Web Vitals, reduce bundle size, and speed up page loads.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">🔒</div>
+            <h3>API & Backend Development</h3>
+            <p>Secure REST/GraphQL APIs, database design, authentication, and integrations.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">📈</div>
+            <h3>Digital Marketing</h3>
+            <p>Growth-focused campaigns, analytics, and conversion optimization.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">🎨</div>
+            <h3>Graphic Design</h3>
+            <p>Branding, UI assets, and visual identities that communicate clearly and beautifully.</p>
+          </article>
+
+          <article class="service-card">
+            <div class="icon">🧪</div>
+            <h3>Testing & QA</h3>
+            <p>Unit, integration, and E2E testing pipelines for reliable releases.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container section-inner animate">
+        <h2>Featured Projects</h2>
+        <p class="muted">Full‑stack web projects focused on performance, scalability, and great UX</p>
+        <div id="projects-slider-container" class="projects-slider-container">
+          <div id="projects-slider" class="projects-slider">
+            <div class="project-slide">
+              <span class="project-type">Full Stack</span>
+              <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" data-src="assets/images/tbd.png" alt="Real Estate Website" loading="lazy">
+              <div class="project-content">
+                <h3>Real Estate Website</h3>
+                <p>A modern real estate website with searchable listings, map view, advanced filters, agent profiles, and appointment booking optimized for SEO and fast performance.</p>
+                <div class="project-links">
+                  <a href="https://tbdrestrategies.com/" target="_blank">View Case Study</a>
+                  <a href="https://tbdrestrategies.com/" target="_blank">Live Demo</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-slide">
+              <span class="project-type">Web App</span>
+              <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" data-src="assets/images/qualityclots.png" alt="QualityClots Clothing App" loading="lazy">
+              <div class="project-content">
+                <h3>Clothing App</h3>
+                <p>A full‑stack, fully responsive clothing e‑commerce app with an admin dashboard for managing products, orders, and inventory.</p>
+                <div class="project-links">
+                  <a href="https://qualityclothings.com/" target="_blank">Interactive Demo</a>
+                  <a href="https://qualityclothings.com/" target="_blank">Technical Overview</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-slide">
+              <span class="project-type">Platform</span>
+              <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" data-src="assets/images/salescrm.jpg" alt="Sales CRM" loading="lazy">
+              <div class="project-content">
+                <h3>Sales CRM</h3>
+                <p>An advanced CRM platform with pipelines, contacts, deals, automation, analytics, and role‑based access.</p>
+                <div class="project-links">
+                  <a href="https://salescrm.gocloudee.com/" target="_blank">Case Study</a>
+                  <a href="https://salescrm.gocloudee.com/" target="_blank">Solution Architecture</a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="project-slide">
+              <span class="project-type">Mobile App</span>
+              <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PC9zdmc+" data-src="assets/images/student_portal.jpg" alt="Student Portal" loading="lazy">
+              <div class="project-content">
+                <h3>Student Portal</h3>
+                <p>A student portal platform to manage student data, schedules, results, and bookings for online classes with seamless, responsive experience.</p>
+                <div class="project-links">
+                  <a href="#" target="_blank">App Store</a>
+                  <a href="#" target="_blank">Development Journey</a>
+                </div>
+              </div>
+            </div>
+
+          
+          </div>
+          <!-- Navigation arrows and dots will be added by JavaScript -->
+        </div>
+      </div>
+      
+      <!-- Small Project Cards -->
+      <div class="project-cards-container animate" data-delay="150">
+        <div class="project-card">
+          <div class="card-icon">🚀</div>
+          <h3>Web Development</h3>
+          <p>Responsive websites with modern frameworks and optimized performance.</p>
+          <a href="#" class="card-link">Learn more</a>
+        </div>
+        
+        <div class="project-card">
+          <div class="card-icon">📱</div>
+          <h3>Mobile Apps</h3>
+          <p>Cross-platform applications with native-like experience and offline capabilities.</p>
+          <a href="#" class="card-link">Learn more</a>
+        </div>
+        
+        <div class="project-card">
+          <div class="card-icon">🤖</div>
+          <h3>AI Solutions</h3>
+          <p>Intelligent systems that learn and adapt to solve complex business challenges.</p>
+          <a href="#" class="card-link">Learn more</a>
+        </div>
+        
+        <div class="project-card">
+          <div class="card-icon">🐍</div>
+          <h3>FastAPI Developer</h3>
+          <p>High‑performance Python APIs with FastAPI: auth, caching, and async integrations.</p>
+          <a href="#" class="card-link">Learn more</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="vision" class="section vision">
+      <div class="container section-inner animate">
+        <h2>Vision & Mission</h2>
+        <p class="muted">Driving innovation with purpose</p>
+        <div class="vision-grid">
+          <div class="vision-card">
+            <span class="vision-icon">🔭</span>
+            <h3>Vision</h3>
+            <p>Creating <span class="vision-highlight">human-centered technology</span> that empowers individuals and organizations to achieve their full potential through elegant, accessible solutions that solve real-world challenges.</p>
+          </div>
+          <div class="vision-card">
+            <span class="vision-icon">🎯</span>
+            <h3>Mission</h3>
+            <p>To deliver <span class="vision-highlight">exceptional digital experiences</span> through meticulous craftsmanship, innovative thinking, and sustainable development practices that prioritize user needs while driving measurable business growth.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container section-inner animate">
+        <h2>Contact</h2>
+        <p class="muted">Let’s work together — send a message or reach out directly</p>
+        <div class="contact-grid">
+          <div class="contact-card">
+            <form id="contactForm" class="contact-form" novalidate>
+              <div class="form-row">
+                <label for="name">Full name</label>
+                <input id="name" name="name" placeholder="Your full name" required />
+              </div>
+
+              <div class="form-row">
+                <label for="email">Email address</label>
+                <input id="email" name="email" type="email" placeholder="" required />
+              </div>
+
+              <div class="form-row">
+                <label for="subject">Subject</label>
+                <input id="subject" name="subject" placeholder="Project, question, or brief" />
+              </div>
+
+              <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" placeholder="Tell me about your project or question" required></textarea>
+              </div>
+
+              <div class="form-actions">
+                <button class="btn primary" type="submit">Reach Out</button>
+                <button type="button" class="btn ghost" id="clearForm">Clear</button>
+              </div>
+
+              <div id="formMsg" class="form-msg" aria-live="polite"></div>
+            </form>
+          </div>
+
+          <aside class="contact-details">
+            <div class="details-card">
+              <img src="assets/resume.pdf" alt="resume badge" class="details-avatar" aria-hidden="true" />
+              <h3>Get in touch</h3>
+              <p class="muted">Prefer email? Send a note and I'll reply within 24–48 hours.</p>
+              <div class="contact-lines">
+                <div class="line"><strong>Email</strong><a href="mailto:youremail@example.com">hamadjara143@gmail.com</a></div>
+                <div class="line"><strong>Phone</strong><a href="tel:+1234567890">+92 (324) 817-9543</a></div>
+                <div class="line"><strong>Location</strong><span>Layyah, Pakistan</span></div>
+              </div>
+
+              <!-- <div class="socials">
+                <a href="#" target="_blank" aria-label="LinkedIn" class="social">LinkedIn</a>
+                <a href="#" target="_blank" aria-label="GitHub" class="social">GitHub</a>
+                <a href="#" target="_blank" aria-label="Twitter" class="social">Twitter</a>
+              </div> -->
+
+              <a href="assets/resume.pdf" download class="btn ghost">Download Resume</a>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="section resume">
+      <div class="container section-inner animate">
+        <h2>Resume</h2>
+        <p class="muted">Professional Highlights</p>
+        <div class="resume-grid">
+          <div class="resume-content">
+            <div class="resume-item">
+              <h3>Key Achievements</h3>
+              <ul class="achievement-list">
+                <li>Developed and launched 10+ website & web applications with 99.9% uptime, reducing load times by 40%</li>
+                <li>Built performant web apps with SSR, caching, and CI/CD, improving delivery speed by 30%</li>
+                <li>Led cross-functional teams to deliver projects 15% under budget</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h3>Core Expertise</h3>
+              <div class="expertise-grid">
+                <div>
+                  <span class="expertise-label">Frontend</span>
+                  <p>JavaScript, Typescript, React, Angular</p>
+                </div>
+                <div>
+                  <span class="expertise-label">Backend</span>
+                  <p>Node.js, Python, API Design, FastAPI</p>
+                </div>
+                <div>
+                  <span class="expertise-label">DevOps</span>
+                  <p>CI/CD, Docker, Nginx, Vercel/Netlify</p>
+                </div>
+                <div>
+                  <span class="expertise-label">Design</span>
+                  <p>Figma, UI/UX, Adobe Creative Suite</p>
+                </div>
+              </div>
+            </div>
+            <a href="assets/resume.pdf" download class="btn primary">Download Full Resume</a>
+          </div>
+          <div class="resume-image">
+            <svg viewBox="0 0 120 120" class="resume-badge" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="60" cy="60" r="58" fill="#eef6ff"/>
+              <text x="60" y="70" font-size="20" text-anchor="middle" fill="#2b8cff">CV</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <!-- <div class="footer-links">
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+        <a href="#">Blog</a>
+      </div> -->
+      <div class="footer-copy">© <span id="year"></span> Hami — Professional Portfolio.</div>
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+  <script src="js/animations.js" defer></script>
+  <script src="js/slider.js" defer></script>
+  <script src="js/mobile-nav.js" defer></script>
+  <script src="js/responsive-images.js" defer></script>
+</body>
+</html>
